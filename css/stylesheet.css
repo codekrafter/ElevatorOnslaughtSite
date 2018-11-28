@@ -5,9 +5,37 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4rem;
+  position: absolute;
+  font-size: 5rem;
+  width: 50rem;
+  height: 2rem;
+  z-index: 10;
+  color: #FFFFFF;
+}
+
+body {
+  /*background-color: #8b5a2b;*/
 }
 
 main {
-  text-align: center;
+    position: fixed;
+    text-align: center;
+}
+
+.wood {
+    position: fixed;
+    top: 0;
+    z-index: 7;
+    background: #8b5a2b;
+}
+
+.wood-left {
+    left: 0;
+}
+
+.door {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background: #AAAAAA;
 }
