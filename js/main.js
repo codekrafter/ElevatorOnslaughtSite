@@ -12,7 +12,7 @@ var updateSizes = function() {
     door_width = height*(400/600);
     $(".door").each(function(){
         var template = "https://via.placeholder.com/";
-        this.src = template + door_width + "x" + height;
+        this.src = template + Math.ceil(door_width) + "x" + Math.ceil(height);
     });
     
     extra_space = (abs_width-(door_width*2));
